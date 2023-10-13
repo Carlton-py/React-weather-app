@@ -3,6 +3,21 @@
   background-size: cover;
   height: 100vh;
 }
+.card{
+  max-height:500px;
+  overflow-y:auto;
+}
+.forecast-day{
+  font-size: 1rem;
+}
+.forecast-temperature{
+  max-width: 60px;
+  font-size: 1.2rem;
+}
+.forecast-description{
+  max-width: 100px;
+  font-size:1rem;
+}
 
 @keyframes App-logo-spin {
   from {
